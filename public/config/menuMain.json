@@ -1,0 +1,84 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/intro.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "productividad",
+    "title": "1. Productividad y la relación con los objetivos institucionales",
+    "breadcrumb": ["Inicio","productividad"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "productividad",
+        "title": "1.1 Tips para aumentar la productividad empresarial",
+        "anchor": "tips"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "competitividad",
+    "title": "2. Competitividad en la empresa",
+    "breadcrumb": ["Inicio","competitividad"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "competitividad",
+        "title": "2.1 Cuota de participación en el mercado",
+        "anchor": "cuota"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "competitividad",
+        "title": "2.2 ¿Cómo mejorar la cuota del mercado o market share?",
+        "anchor": "como"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "gestion",
+    "title": "3. Gestión de la organización en función de la productividad y competitividad",
+    "breadcrumb": ["Inicio","gestion"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "gestion",
+        "title": "3.1 Modelo de acción para los objetivos institucionales",
+        "anchor": "modelo"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-file-text",
+    "slug": "conclusion",
+    "title": "4. Conclusión",
+    "breadcrumb": ["Inicio","conclusion"],
+    "path": "pages/4-tema.html"
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  } 
+]
